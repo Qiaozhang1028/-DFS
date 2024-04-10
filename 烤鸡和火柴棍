@@ -250,3 +250,125 @@ int main()
 	cout<<res<<endl;
 	return 0;
 }
+//#include <bits/stdc++.h>
+//using namespace std;
+//const int N = 20;
+//int n;
+//int arr[N]//存方案 
+//int acid[N],bitter[N];
+//int res = 1e9;//存答案 
+//int st[N];//存每种调料选还是不选，或者没考虑到，0是没考虑到，1是选，2是不选 
+//bool has_tl = false;
+//void dfs(int x)
+//{
+//	
+//	
+//	if(x>n)
+//	{
+//		int sum=1;//存酸度之积
+//		int sum=0;//存苦度之和 
+//		for(int i=1;i<=n;i++)
+//		{
+//			if(st[i] == 1)
+//			{
+//				has_tl = true
+//				sum1 *=acid[i];
+//				sum2 +=bitter[i];
+//			}
+////			sum1 *=acid[i];
+////			sum2 +=bitter[i];
+//		}
+//		if(has_tl)
+//		{
+//			res = min(res,abs(sum1-sum2));
+//		}
+////		res = min(res,abs(sum1-sum2));
+//		return ;
+//	}
+//	
+//	
+//	//选 
+//	st[x] = 1;
+//	dfs(x+1);
+//	st[x] = 0;//恢复现场
+//	
+//	//不选
+//	st[x] = 2;
+//	dfs(x+1);
+//	st[x] = 0; 
+//}
+//int main()
+//{
+//	cin>>n;
+//	for(int i=1;i<=n;i++)
+//	{
+//		cin>>acid[i]>>bitter[i];
+//	}
+//	dfs(1);
+//	cout<<res;
+//	return 0;
+//}
+
+
+//#include <bits/stdc++.h>
+//using namespace std;
+//int n,A,B;
+//int evlt[N];
+//int res = 1e9;
+//int cnt;
+////当前在x楼 
+//void dfs(int x,int cnt)
+//{
+//	if(cnt > res)
+//		return;
+//	
+//	
+//	if(x==B)
+//	{
+//		res = min(res,cnt);
+//		return ;
+//	}
+//	
+//	
+//	//上
+//	if(x+evlt[x]<n){
+//	
+//		dfs(x+evlt[x]);
+//	}
+//	
+//	//下
+//	if(x-evlt[x]>0
+//		dfs(x-evlt[x]);
+//	
+//	 
+//	
+//}
+//
+//
+//int main()
+//{
+//	ios::sync_with_stdio(false);
+//	cin.tie(0);
+//	cout.tie(0);
+//	cin>>n>>A>>B;
+//	for(int i=0;i<=n;i++)
+//	{
+//		cin>>evlt[i];
+//	}
+//	dfs(A,0);
+//	cout<<res<<endl;
+//	return 0;
+// } 
+
+////lake counting
+//#include <bits/stdc++.h>
+//using namespace std;
+//
+//
+//
+//
+//int main()
+//{
+//	
+//	return 0;
+//}
